@@ -1,13 +1,13 @@
 clear
 set(0,'DefaultAxesFontSize', 18)
-beta=0.0000002857;
-g=0.02011;
-b=0.00137363;
+beta=1;
+g=0.25;
+b=0.25;
 R0=beta/(b+g);
-N=150000;
-init=10000;
+N=100;
+init=2;
 dt=0.01;
-time=5000;
+time=25;
 sim=3;
 for j=1:sim
 i(1)=init;
